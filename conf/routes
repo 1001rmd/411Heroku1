@@ -13,5 +13,4 @@ GET     /message                    controllers.AsyncController.message
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 # My method for this project
-GET		/name
-controllers.HomeController.name
+GET		/name                       controllers.HomeController.name
